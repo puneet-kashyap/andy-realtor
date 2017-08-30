@@ -24,13 +24,10 @@ const SubNav = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li className="page-scroll">
-                                <Link to='/TermInsurance'>Term Insurance</Link>
+                                <Link to='/LifeInsurance'>Life Insurance</Link>
                             </li>
                             <li className="page-scroll">
-                                <Link to='/universal-life-insurance'>Universal Life Insurance</Link>
-                            </li>
-                            <li className="page-scroll">
-                                <Link to='/critical-illness-insurance'>Critical Insurance</Link>
+                                <Link to='/Mortgage-Comparison'>Mortgage Comparison</Link>
                             </li>
                             <li className="dropdown">
                               <a className="dropdown-toggle" data-toggle="dropdown" href="/">
@@ -54,6 +51,30 @@ const SubNav = () => {
                                 </li>
                               </ul>
                             </li>
+
+                            <li className="dropdown">
+                              <a className="dropdown-toggle" data-toggle="dropdown" href="/">
+                                Calculator
+                              <span className="caret"></span></a>
+                              <ul className="dropdown-menu" style={{'background':'#00458b'}}>
+                                <li className="page-scroll">
+                                    <Link to='/Mortgage-Calculator'>Mortgage Calculator</Link>
+                                </li>
+                                <li className="page-scroll">
+                                    <Link to='/Mortgage-Comparison'>Mortgage Comparison</Link>
+                                </li>
+                                <li className="page-scroll">
+                                    <Link to='/CMHC-Insurance-Calculator'>CMHC Insurance Calculator</Link>
+                                </li>
+                                <li >
+                                    <Link to='/Land-Transfer-Tax-Calculator'>Land Transfer Tax Calculator</Link>
+                                </li>
+                                <li className="page-scroll">
+                                    <Link to='/Mortgage-Affordability-Calculator'>Mortgage Affordability Calculator</Link>
+                                </li>
+                              </ul>
+                            </li>
+
                             <li className="page-scroll">
                                 <Link to='/Contact'>Contact Us</Link>
                             </li>

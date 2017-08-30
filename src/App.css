@@ -192,7 +192,7 @@ header .intro-text .skills {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navbar-custom {
     padding: 0px 0;
     -webkit-transition: padding 0.3s;
@@ -211,7 +211,12 @@ header .intro-text .skills {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+  }
+
 }
+
 section {
   /*padding: 110px 0;*/
   display: block;
