@@ -14,6 +14,8 @@ import CMHCinsuranceCalculator from './Components/Calculator/CMHCinsuranceCalcul
 import LandTransferTaxCalculator from './Components/Calculator/LandTransferTaxCalculator';
 import MortgageCalculator from './Components/Calculator/MortgageCalculator';
 import MortgageComparison from './Components/Calculator/MortgageComparison';
+import MortgageProcess from './Components/Mortgage/MortgageProcess';
+import MortgageRateCharts from './Components/Mortgage/MortgageRateCharts';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -30,7 +32,9 @@ ReactDOM.render((
       <Route exact path='/CMHC-Insurance-Calculator' component={CMHCinsuranceCalculator}/>
       <Route exact path='/Land-Transfer-Tax-Calculator' component={LandTransferTaxCalculator}/>
       <Route exact path='/Mortgage-Calculator' component={MortgageCalculator}/>
+      <Route exact path='/Mortgage-Process' component={MortgageProcess}/>
       <Route exact path='/Mortgage-Comparison' component={MortgageComparison}/>
+      <Route exact path='/Mortgage-Rate-Charts' component={MortgageRateCharts}/>
       <Route exact path='/Contact' component={Contact}/>
       <Route path="*" render={() => (<Redirect to="/"/>)} />
     </Switch>
