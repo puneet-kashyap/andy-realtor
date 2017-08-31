@@ -26,9 +26,30 @@ const SubNav = () => {
                             <li className="page-scroll">
                                 <Link to='/LifeInsurance'>Life Insurance</Link>
                             </li>
-                            <li className="page-scroll">
-                                <Link to='/Mortgage-Comparison'>Mortgage Comparison</Link>
+
+                            <li className="dropdown">
+                              <a className="dropdown-toggle" data-toggle="dropdown" href="/">
+                                Mortgage Hub
+                              <span className="caret"></span></a>
+                              <ul className="dropdown-menu" style={{'background':'#00458b'}}>
+                                <li className="page-scroll">
+                                    <a href="http://www.andynagpal.info" target="_blank" rel="noopener noreferrer">Mortgage Agent</a>
+                                </li>
+                                <li className="page-scroll">
+                                    <a href="https://apply.invismi.ca/?wid=41001603" target="_blank" rel="noopener noreferrer">Mortgage Application</a>
+                                </li>
+                                <li className="page-scroll">
+                                    <Link to='/Mortgage-Process'>Getting a Mortgage</Link>
+                                </li>
+                                <li className="page-scroll">
+                                    <Link to='/Mortgage-Rate-Charts'>Mortgage Rate Charts</Link>
+                                </li>
+                                <li className="page-scroll">
+                                    <a href="http://www.consumer.equifax.ca/home/en_ca" target="_blank" rel="noopener noreferrer">Credit History</a>
+                                </li>
+                              </ul>
                             </li>
+
                             <li className="dropdown">
                               <a className="dropdown-toggle" data-toggle="dropdown" href="/">
                                 Insurance
@@ -40,7 +61,7 @@ const SubNav = () => {
                                 <li className="page-scroll">
                                     <Link to='/TermInsurance'>Term Life Insurance</Link>
                                 </li>
-                                <li >
+                                <li className="page-scroll">
                                     <Link to='/whole-life-insurance'>Whole Life Insurance</Link>
                                 </li>
                                 <li className="page-scroll">
@@ -66,7 +87,7 @@ const SubNav = () => {
                                 <li className="page-scroll">
                                     <Link to='/CMHC-Insurance-Calculator'>CMHC Insurance Calculator</Link>
                                 </li>
-                                <li >
+                                <li className="page-scroll">
                                     <Link to='/Land-Transfer-Tax-Calculator'>Land Transfer Tax Calculator</Link>
                                 </li>
                                 <li className="page-scroll">
