@@ -26,7 +26,6 @@ const SubNav = () => {
                             <li className="page-scroll">
                                 <Link to='/LifeInsurance'>Life Insurance</Link>
                             </li>
-
                             <li className="dropdown">
                               <a className="dropdown-toggle" data-toggle="dropdown" href="/">
                                 Mortgage Hub

@@ -17,8 +17,6 @@ import MortgageComparison from './Components/Calculator/MortgageComparison';
 import MortgageProcess from './Components/Mortgage/MortgageProcess';
 import MortgageRateCharts from './Components/Mortgage/MortgageRateCharts';
 
-
-
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
