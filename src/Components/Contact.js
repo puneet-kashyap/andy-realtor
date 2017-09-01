@@ -14,24 +14,24 @@ const Contact = () => {
                     <hr className="star-primary"></hr>
                         <div className="col-lg-6">
                             <h3>Andy Nagpal</h3>
-                            <img src={require('../Images/contact/Andy_mirror_pix.png')} className="img-responsive center-block" alt="Simar Dhaliwal"/>
+                            <img src={require('../Images/contact/Andy_mirror_pix.png')} className="img-responsive center-block" alt="Andy Nagpal"/>
                             <p><span>
                                 <br/>180 Northfield Dr. W #4
                                 <br/>Waterloo, ON N2L 0C7
                                 <br/>Ph.# 647-818-7966
                                 <br/>Email:
-                                <a href={`mailto:andypaaji@gmail.com?Subject=Andy%20Nagpal`} target="_top">andypaaji@gmail.com</a>
+                                <a href={`mailto:andy.nagpal1@gmail.com?Subject=Andy%20Nagpal`} target="_top">andy.nagpal1@gmail.com</a>
                                 <br/>
                                 </span>
                             </p>
                         </div>
                         <div className="col-lg-6">
                             <h3>Varun Tara</h3>
-                            <img src={require('../Images/contact/Andy_profile_pix.png')} className="img-responsive center-block" alt="Sonia Bhardwaj"/>
+                            <img src={require('../Images/contact/Andy_profile_pix.png')} className="img-responsive center-block" alt="Andy Nagpal"/>
                             <p><span>
                                 <br/>Malton Gurughar
                                 <br/>Mississauga
-                                <br/>Ph.# 647-XXX-XXXX
+                                <br/>Ph.# 226-666-9558
                                 <br/>Email:
                                 <a href={`mailto:varunpaaji@gmail.com?Subject=Varun%20Paaji`} target="_top"> varunpaaji@gmail.com</a>
                                 <br/>

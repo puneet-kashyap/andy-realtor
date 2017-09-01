@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="footer-col col-md-4">
                             <h3>Andy Nagapl</h3>
                             <p><span>Ph.# 647-818-7966<br/>
-                                <a href={`mailto:andypaaji@gmail.com?Subject=Andy%20Nagpal`} target="_top">andypaaji@gmail.com</a></span>
+                                <a href={`mailto:andy.nagpal1@gmail.com?Subject=Andy%20Nagpal`} target="_top">andy.nagpal1@gmail.com</a></span>
                                 <span className='hidden-xs'>
                                 <br/>180 Northfield Dr. W #4
                                 <br/>Waterloo, ON N2L 0C7<br/>
@@ -37,7 +37,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-col col-md-4">
                             <h3>Varun Tara</h3>
-                            <p><span>Ph.# 647-XXX-XXXX<br/>
+                            <p><span>Ph.# 226-666-9558<br/>
                                 <a href={`mailto:varunpaaji@gmail.com?Subject=Varun%20Paaji`} target="_top"> varunpaaji@gmail.com</a></span>
                                 <span className='hidden-xs'>
                                 <br/>Malton Gurughar
