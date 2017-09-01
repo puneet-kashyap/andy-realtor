@@ -23,7 +23,7 @@ const SubNav = () => {
                             <li >
                                 <Link to='/'>Home</Link>
                             </li>
-                            
+
                             <li className="dropdown">
                               <a className="dropdown-toggle" data-toggle="dropdown" href="/">
                                 Mortgage Hub
