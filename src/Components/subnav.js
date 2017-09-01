@@ -23,9 +23,7 @@ const SubNav = () => {
                             <li >
                                 <Link to='/'>Home</Link>
                             </li>
-                            <li className="page-scroll">
-                                <Link to='/LifeInsurance'>Life Insurance</Link>
-                            </li>
+
                             <li className="dropdown">
                               <a className="dropdown-toggle" data-toggle="dropdown" href="/">
                                 Mortgage Hub
@@ -95,6 +93,13 @@ const SubNav = () => {
                               </ul>
                             </li>
 
+                            <li className="page-scroll">
+                                <a href="http://www.kwhomesearch.info/property_find_results?country=203&amp;CountyID=&amp;city=waterloo&amp;zip_postal=&amp;ml_num=&amp;price_from=175000&amp;price_to=2100000&amp;residentialType=Detached&amp;sale=on&amp;bedrooms_from=0&amp;bathrooms_from=0&amp;bedrooms_to=NULL&amp;bathrooms_to=NULL&amp;" target="_blank" rel="noopener noreferrer">KW Homes</a>
+                            </li>
+                            <li className="page-scroll">
+                                <a href="http://topbiz4sale.info/" target="_blank" rel="noopener noreferrer">Business For Sale</a>
+                            </li>
+                            
                             <li className="page-scroll">
                                 <Link to='/Contact'>Contact Us</Link>
                             </li>
