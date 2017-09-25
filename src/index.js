@@ -17,6 +17,8 @@ import MortgageCalculator from './Components/Calculator/MortgageCalculator';
 import MortgageComparison from './Components/Calculator/MortgageComparison';
 import MortgageProcess from './Components/Mortgage/MortgageProcess';
 import MortgageRateCharts from './Components/Mortgage/MortgageRateCharts';
+import Welcome from './Components/Login/Welcome';
+import SignIn from './Components/Login/SignIn'
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -37,6 +39,8 @@ ReactDOM.render((
       <Route exact path='/Mortgage-Comparison' component={MortgageComparison}/>
       <Route exact path='/Mortgage-Rate-Charts' component={MortgageRateCharts}/>
       <Route exact path='/Contact' component={Contact}/>
+      <Route exact path='/SignIn' component={SignIn}/>
+      <Route exact path='/Welcome' component={Welcome}/>
       <Route path="*" render={() => (<Redirect to="/"/>)} />
     </Switch>
   </BrowserRouter>
