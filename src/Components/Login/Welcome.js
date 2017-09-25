@@ -27,7 +27,6 @@ const UserInfo = () => {
       </div>
     )
   } else {
-    console.log('ii');
     return (
       <div className="row" style={{'margin':'20px 0px'}}>
           <div className="col-lg-6">

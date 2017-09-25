@@ -42,7 +42,7 @@ ui.start('#firebaseui-auth-container', uiConfig);
 export const signOut = () => {
   firebase.auth().signOut().then( () => {
     localStorage.clear();
-    window.location = '/'
+    window.location = '/Welcome'
   }, (error) => {
     console.error('Sign Out Error', error);
   });
