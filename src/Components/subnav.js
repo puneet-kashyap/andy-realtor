@@ -23,7 +23,6 @@ const SubNav = () => {
                             <li >
                                 <Link to='/'>Home</Link>
                             </li>
-
                             <li className="dropdown">
                               <a className="dropdown-toggle" data-toggle="dropdown" href="/">
                                 Mortgage Hub
@@ -99,9 +98,11 @@ const SubNav = () => {
                             <li className="page-scroll">
                                 <a href="http://topbiz4sale.info/" target="_blank" rel="noopener noreferrer">Business For Sale</a>
                             </li>
-                            
                             <li className="page-scroll">
                                 <Link to='/Contact'>Contact Us</Link>
+                            </li>
+                            <li className="page-scroll">
+                                <Link to='/SignIn'><span id='sign-in-status' /></Link>
                             </li>
                         </ul>
                     </div>
