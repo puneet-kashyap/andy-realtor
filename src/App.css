@@ -589,6 +589,7 @@ div#maincontent {
 
 .map {
   height: 500px;
+  padding: 0px;
 }
 
 @media(max-width:768px) {
@@ -598,12 +599,4 @@ div#maincontent {
   #myCarousel .item img{
   height: auto;
 }
-}
-
-.map iframe {
-  pointer-events: none;
-}
-
-.map {
-  padding: 0px;
 }

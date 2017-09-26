@@ -18,7 +18,8 @@ import MortgageComparison from './Components/Calculator/MortgageComparison';
 import MortgageProcess from './Components/Mortgage/MortgageProcess';
 import MortgageRateCharts from './Components/Mortgage/MortgageRateCharts';
 import Welcome from './Components/Login/Welcome';
-import SignIn from './Components/Login/SignIn'
+import SignIn from './Components/Login/SignIn';
+
 
 import registerServiceWorker from './registerServiceWorker';
 
