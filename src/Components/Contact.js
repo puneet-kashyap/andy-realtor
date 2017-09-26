@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
+import Map from './Utils/map'
 
 const Contact = () => {
     return (
@@ -59,6 +60,7 @@ const Contact = () => {
               </div>
         </div>
     </section>
+    <Map loc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.237774208143!2d-80.54941998450728!3d43.49737507912697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf1611ecc0a5d%3A0x42d317d2d6c43376!2s180+Northfield+Dr+W%2C+Waterloo%2C+ON+N2L+0C7!5e0!3m2!1sen!2sca!4v1506445371823"/>
     <Footer />
     </div>
 );
