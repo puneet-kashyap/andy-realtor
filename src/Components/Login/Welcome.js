@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {updateInquiryForm} from '../../actions'
 import Navbar from '../navbar';
 import Footer from '../footer';
 import { signOut, signIn, fireLocal } from '../../fire';
@@ -7,6 +7,7 @@ import { signOut, signIn, fireLocal } from '../../fire';
 const UserInfo = () => {
   const user = fireLocal()
   if(user){
+    updateInquiryForm(user)
     return (
       <div>
         <div className="row" style={{'margin':'20px 0px'}}>

@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { Provider } from 'react-redux';
+import { applyMiddleware, createStore } from 'redux';
+import {logger} from 'redux-logger';
 
 import './index.css';
 import App from './App';
@@ -19,10 +23,16 @@ import MortgageProcess from './Components/Mortgage/MortgageProcess';
 import MortgageRateCharts from './Components/Mortgage/MortgageRateCharts';
 import Welcome from './Components/Login/Welcome';
 import SignIn from './Components/Login/SignIn';
-
+import Inquiry from './Components/Forms/Inquiry';
+import allReducers from './reducers';
 import registerServiceWorker from './registerServiceWorker';
 
+const middleware = applyMiddleware(logger)
+export const store = createStore(allReducers, middleware);
+
 ReactDOM.render((
+  <Provider store={store}>
+  <MuiThemeProvider>
   <BrowserRouter forceRefresh={true}>
     <Switch>
       <Route exact path='/' component={App}/>
@@ -41,8 +51,11 @@ ReactDOM.render((
       <Route exact path='/Contact' component={Contact}/>
       <Route exact path='/SignIn' component={SignIn}/>
       <Route exact path='/Welcome' component={Welcome}/>
+      <Route exact path='/Inquiry' component={Inquiry}/>
       <Route path="*" render={() => (<Redirect to="/"/>)} />
     </Switch>
   </BrowserRouter>
+  </MuiThemeProvider>
+  </Provider>
   ), document.getElementById('root'));
 registerServiceWorker();

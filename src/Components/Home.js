@@ -20,7 +20,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div className="col-md-6" style={{'padding':'10px'}}>
-                          <a href="/">
+                          <a href="/Inquiry">
                             <img src={require('../Images/home/FindYourDreamHome.gif')}
                             className="img-responsive" alt="Andy Nagpal Realtor"/>
                           </a>
