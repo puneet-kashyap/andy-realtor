@@ -10,6 +10,7 @@ var config = {
   messagingSenderId: "298741757421"
 };
 export const fire = firebase.initializeApp(config);
+const fireDB = firebase.database();
 
 export const fireUI = () => {
 var uiConfig = {
@@ -27,6 +28,17 @@ var uiConfig = {
 };
 var ui = new firebaseui.auth.AuthUI(firebase.auth());
 ui.start('#firebaseui-auth-container', uiConfig);
+}
+
+export const writeInquiryData = (name, phone, email, realtor, date, time) => {
+  fireDB.ref('Inquiry/' + name).set({
+    username: name,
+    phone: phone,
+    email: email,
+    working_with_realtor: realtor,
+    date: date,
+    time: time
+  });
 }
 
  firebase.auth().onAuthStateChanged((user) => {
