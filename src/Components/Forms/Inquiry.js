@@ -16,6 +16,7 @@ import { writeInquiryData } from '../../fire'
 const InquiryThanks = (props) => {
   const { show, name, phone, email, realtor,date, time} = props
   writeInquiryData(name, phone, email, realtor, date, time);
+
   if (show === 'formSubmitted') {
     return (
       <div>
